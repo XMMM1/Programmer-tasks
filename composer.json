@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "4.4.*",
+        "phpmd/phpmd": "@stable",
+        "sebastian/phpcpd": "*"
+    }
+}
