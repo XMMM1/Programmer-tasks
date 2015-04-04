@@ -64,7 +64,7 @@ class CalcRange
                 $smaller = $number - $i;
                 if (in_array($smaller, $this->niz)) {
                     $checked[$index] = $smaller;
-                  git  $tmpLen++;
+                    $tmpLen++;
 //                    $tmpArray[$index] = $smaller;
                 } else {
                     break;
@@ -82,6 +82,3 @@ class CalcRange
 }
 
 
-//$niz = array(101, 4, 320, 1, 3, 2, 45, 46);
-//$calculator = new CalcRange($niz);
-//echo $calculator->longestRange();
