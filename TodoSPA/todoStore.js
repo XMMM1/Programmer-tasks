@@ -1,7 +1,7 @@
 angular.module('todoApp')
     .factory('todoStorage', function ($http) {
         'use strict';
-        var host = "../../razgovori/api/";
+        var host = "http://murn.eu/razgovori/api/";
         var store = {
             todos: [],
             delete: function (todo) {
